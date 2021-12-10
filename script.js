@@ -54,7 +54,7 @@ function createCountry(country) {
   <img src=${country.flag} alt="Flag img" class="flag" />
   <div class="information">
   
-  <h2 class="header"><${country.name}</h2>
+  <h2 class="header">${country.name}</h2>
   <p class="population" ><span>Population :</span>${country.population}</p>
   <p class="region"><span>Region :</span>${country.region}</p>
   <p class="capital"><span>Capital :</span>${country.capital}</p>
